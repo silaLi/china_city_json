@@ -1,3 +1,3 @@
 # china_city_json
-### 参考资料
+### Reference
 http://cnis.7east.com/
