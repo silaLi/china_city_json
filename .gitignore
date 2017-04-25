@@ -1,0 +1,13 @@
+node_modules
+**.sass-cache
+*.css.map
+.DS_Store
+._.DS_Store
+
+MCFC_h5_webpack
+
+npm-debug.log
+
+sftp-config.json
+*.sublime-project
+*.sublime-workspace
