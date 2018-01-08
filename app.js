@@ -1,5 +1,4 @@
 //参考 http://cnis.7east.com/
-var cityCache = null;
 
 var http = require('http');
 var url = require('url');
@@ -9,8 +8,9 @@ var fs = require('fs');
 
 strUrl = 'http://cnis.7east.com/widget.do?type=service&ajax=yes';
 
+
 getDataByAjax(strUrl + '&action=cnislist', function (data) {
-  cityCache = data;
+  let cityCache = data;
   for (var i = 0; i < cityCache.length; i++) {
     setTimeout(function (i) {
       getDataByAjax(strUrl + '&action=cnischildlist&pid=' + cityCache[i].region_id, function (data) {
@@ -29,20 +29,28 @@ getDataByAjax(strUrl + '&action=cnislist', function (data) {
 })
 
 
-
 // 记录setTimeout的标记
 var timer = 0;
 /**
- * 通过setTimeout与clearTimeout配合达到一次保存
+ * 通过setInterval与clearInterval配合达到一次保存
  * 问题在于当某一次ajax时间过长，会导致多次保存
  * 
  * @param {any} cityCache 
  */
 function w_save(cityCache) {
   clearTimeout(timer);
-  timer = setTimeout(function () {
-    f_save(cityCache)
-  }, 1000 * 5);
+  clearInterval(timer);
+  let timeout = 5;
+  timer = setInterval(function () {
+    if(timeout <= 0){
+      f_save(cityCache)
+      clearTimeout(timer);
+      clearInterval(timer);
+    }else{
+      console.log('save file count down: ' + timeout);
+    }
+    timeout--;
+  }, 1000);
   console.log('ready save');
 }
 
@@ -52,14 +60,61 @@ function w_save(cityCache) {
  * @param {any} data 
  */
 function f_save(data) {
-  data = JSON.stringify(data, null, "\t");
-  var file_name = './dist/city.json'
+  let dataJson = JSON.stringify(data, null, "\t");
+  let file_name = './dist/city.json';
   fs.unlink(file_name, function () {
-    fs.writeFile(file_name, data, function (err) {
+    fs.writeFile(file_name, dataJson, function (err) {
       if (err) throw err;
       console.log("File Saved !"); //文件被保存
     });
   });
+
+  let mindata = dataFilter(data)
+  let mindataJson = JSON.stringify(mindata, null, "\t");
+  let mi_file_name = './dist/city.min.json';
+  fs.unlink(mi_file_name, function () {
+    fs.writeFile(mi_file_name, mindataJson, function (err) {
+      if (err) throw err;
+      console.log("min File Saved !"); //文件被保存
+    });
+  });
+}
+/**
+ * 城市数据过滤器
+ * 只保存城市部分数据
+ * 
+ * @param {any} Olddata 
+ * @returns 
+ */
+function dataFilter(Olddata){
+  if(!Olddata){
+    return [];
+  }
+  let Newdata = [];
+  for(let i = 0, len = Olddata.length; i < len; i++){
+    let item = Olddata[i];
+    Newdata[i] = {
+
+      // code: item.code,
+      // fullspell: item.fullspell,
+      // layer: item.layer,
+      // local_name: item.local_name,
+      // luoma: item.luoma,
+      // name: item.name,
+      // region_id: item.region_id,
+      // region_path: item.region_path,
+      // shuzi: item.shuzi,
+      // thinspell: item.thinspell,
+      // zimu: item.zimu,
+      // state: item.state,
+
+      sub: dataFilter(item.sub),
+      name: item.name,
+      region_id: item.region_id
+
+    }
+  }
+  return Newdata;
 }
 /**
  * 发送ajax
@@ -82,27 +137,7 @@ function getDataByAjax(strUrl, next) {
       resData.push(chunk);
     }).on('end', function () {
       var data = JSON.parse(resData.join(''));
-      var filterData = []
-      for (var i = 0; i < data.rows.length; i++) {
-        // code: 140700
-        // fullspell: "Jinzhong Shi"
-        // layer: 2
-        // local_name: "晋中市"
-        // luoma: "Jinzhong Shi"
-        // name: "晋中市"
-        // region_id: 302
-        // region_path: ",238,302,"
-        // shuzi: "140700"
-        // thinspell: "JZN"
-        // zimu: "JZN"
-        // state: 'closed'
-
-        filterData[i] = {
-          name: data.rows[i].name,
-          region_id: data.rows[i].region_id
-        }
-      }
-      next(filterData)
+      next(data.rows)
     });
   });
   req.end();
