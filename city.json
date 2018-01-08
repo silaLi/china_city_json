@@ -1,165 +1,156 @@
-[
-	{
+[{
 		"name": "北京市",
 		"region_id": 1,
-		"sub": [
-			{
-				"name": "市辖区",
-				"region_id": 2,
-				"sub": [
-					{
-						"name": "东城区",
-						"region_id": 3
-					},
-					{
-						"name": "西城区",
-						"region_id": 4
-					},
-					{
-						"name": "朝阳区",
-						"region_id": 7
-					},
-					{
-						"name": "丰台区",
-						"region_id": 8
-					},
-					{
-						"name": "石景山区",
-						"region_id": 9
-					},
-					{
-						"name": "海淀区",
-						"region_id": 10
-					},
-					{
-						"name": "门头沟区",
-						"region_id": 11
-					},
-					{
-						"name": "房山区",
-						"region_id": 12
-					},
-					{
-						"name": "通州区",
-						"region_id": 13
-					},
-					{
-						"name": "顺义区",
-						"region_id": 14
-					},
-					{
-						"name": "昌平区",
-						"region_id": 15
-					},
-					{
-						"name": "大兴区",
-						"region_id": 16
-					},
-					{
-						"name": "怀柔区",
-						"region_id": 17
-					},
-					{
-						"name": "平谷区",
-						"region_id": 18
-					},
-					{
-						"name": "密云区",
-						"region_id": 20
-					},
-					{
-						"name": "延庆区",
-						"region_id": 21
-					}
-				]
-			}
-		]
+		"sub": [{
+			"name": "市辖区",
+			"region_id": 2,
+			"sub": [{
+					"name": "东城区",
+					"region_id": 3
+				},
+				{
+					"name": "西城区",
+					"region_id": 4
+				},
+				{
+					"name": "朝阳区",
+					"region_id": 7
+				},
+				{
+					"name": "丰台区",
+					"region_id": 8
+				},
+				{
+					"name": "石景山区",
+					"region_id": 9
+				},
+				{
+					"name": "海淀区",
+					"region_id": 10
+				},
+				{
+					"name": "门头沟区",
+					"region_id": 11
+				},
+				{
+					"name": "房山区",
+					"region_id": 12
+				},
+				{
+					"name": "通州区",
+					"region_id": 13
+				},
+				{
+					"name": "顺义区",
+					"region_id": 14
+				},
+				{
+					"name": "昌平区",
+					"region_id": 15
+				},
+				{
+					"name": "大兴区",
+					"region_id": 16
+				},
+				{
+					"name": "怀柔区",
+					"region_id": 17
+				},
+				{
+					"name": "平谷区",
+					"region_id": 18
+				},
+				{
+					"name": "密云区",
+					"region_id": 20
+				},
+				{
+					"name": "延庆区",
+					"region_id": 21
+				}
+			]
+		}]
 	},
 	{
 		"name": "天津市",
 		"region_id": 22,
-		"sub": [
-			{
-				"name": "市辖区",
-				"region_id": 23,
-				"sub": [
-					{
-						"name": "和平区",
-						"region_id": 24
-					},
-					{
-						"name": "河东区",
-						"region_id": 25
-					},
-					{
-						"name": "河西区",
-						"region_id": 26
-					},
-					{
-						"name": "南开区",
-						"region_id": 27
-					},
-					{
-						"name": "河北区",
-						"region_id": 28
-					},
-					{
-						"name": "红桥区",
-						"region_id": 29
-					},
-					{
-						"name": "东丽区",
-						"region_id": 33
-					},
-					{
-						"name": "西青区",
-						"region_id": 34
-					},
-					{
-						"name": "津南区",
-						"region_id": 35
-					},
-					{
-						"name": "北辰区",
-						"region_id": 36
-					},
-					{
-						"name": "武清区",
-						"region_id": 37
-					},
-					{
-						"name": "宝坻区",
-						"region_id": 38
-					},
-					{
-						"name": "滨海新区",
-						"region_id": 30
-					},
-					{
-						"name": "宁河区",
-						"region_id": 40
-					},
-					{
-						"name": "静海区",
-						"region_id": 41
-					},
-					{
-						"name": "蓟州区",
-						"region_id": 42
-					}
-				]
-			}
-		]
+		"sub": [{
+			"name": "市辖区",
+			"region_id": 23,
+			"sub": [{
+					"name": "和平区",
+					"region_id": 24
+				},
+				{
+					"name": "河东区",
+					"region_id": 25
+				},
+				{
+					"name": "河西区",
+					"region_id": 26
+				},
+				{
+					"name": "南开区",
+					"region_id": 27
+				},
+				{
+					"name": "河北区",
+					"region_id": 28
+				},
+				{
+					"name": "红桥区",
+					"region_id": 29
+				},
+				{
+					"name": "东丽区",
+					"region_id": 33
+				},
+				{
+					"name": "西青区",
+					"region_id": 34
+				},
+				{
+					"name": "津南区",
+					"region_id": 35
+				},
+				{
+					"name": "北辰区",
+					"region_id": 36
+				},
+				{
+					"name": "武清区",
+					"region_id": 37
+				},
+				{
+					"name": "宝坻区",
+					"region_id": 38
+				},
+				{
+					"name": "滨海新区",
+					"region_id": 30
+				},
+				{
+					"name": "宁河区",
+					"region_id": 40
+				},
+				{
+					"name": "静海区",
+					"region_id": 41
+				},
+				{
+					"name": "蓟州区",
+					"region_id": 42
+				}
+			]
+		}]
 	},
 	{
 		"name": "河北省",
 		"region_id": 43,
-		"sub": [
-			{
+		"sub": [{
 				"name": "石家庄市",
 				"region_id": 44,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 45
 					},
@@ -256,8 +247,7 @@
 			{
 				"name": "唐山市",
 				"region_id": 69,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 70
 					},
@@ -322,8 +312,7 @@
 			{
 				"name": "秦皇岛市",
 				"region_id": 85,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 86
 					},
@@ -360,8 +349,7 @@
 			{
 				"name": "邯郸市",
 				"region_id": 94,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 95
 					},
@@ -446,8 +434,7 @@
 			{
 				"name": "邢台市",
 				"region_id": 115,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 116
 					},
@@ -532,8 +519,7 @@
 			{
 				"name": "保定市",
 				"region_id": 136,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 137
 					},
@@ -638,8 +624,7 @@
 			{
 				"name": "张家口市",
 				"region_id": 163,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 164
 					},
@@ -712,8 +697,7 @@
 			{
 				"name": "承德市",
 				"region_id": 182,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 183
 					},
@@ -766,8 +750,7 @@
 			{
 				"name": "沧州市",
 				"region_id": 195,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 196
 					},
@@ -840,8 +823,7 @@
 			{
 				"name": "廊坊市",
 				"region_id": 213,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 214
 					},
@@ -890,8 +872,7 @@
 			{
 				"name": "衡水市",
 				"region_id": 225,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 226
 					},
@@ -946,12 +927,10 @@
 	{
 		"name": "山西省",
 		"region_id": 238,
-		"sub": [
-			{
+		"sub": [{
 				"name": "太原市",
 				"region_id": 239,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 240
 					},
@@ -1000,8 +979,7 @@
 			{
 				"name": "大同市",
 				"region_id": 251,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 252
 					},
@@ -1054,8 +1032,7 @@
 			{
 				"name": "阳泉市",
 				"region_id": 264,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 265
 					},
@@ -1084,8 +1061,7 @@
 			{
 				"name": "长治市",
 				"region_id": 271,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 272
 					},
@@ -1146,8 +1122,7 @@
 			{
 				"name": "晋城市",
 				"region_id": 286,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 287
 					},
@@ -1180,8 +1155,7 @@
 			{
 				"name": "朔州市",
 				"region_id": 294,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 295
 					},
@@ -1214,8 +1188,7 @@
 			{
 				"name": "晋中市",
 				"region_id": 302,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 303
 					},
@@ -1268,8 +1241,7 @@
 			{
 				"name": "运城市",
 				"region_id": 315,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 316
 					},
@@ -1330,8 +1302,7 @@
 			{
 				"name": "忻州市",
 				"region_id": 330,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 331
 					},
@@ -1396,8 +1367,7 @@
 			{
 				"name": "临汾市",
 				"region_id": 346,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 347
 					},
@@ -1474,8 +1444,7 @@
 			{
 				"name": "吕梁市",
 				"region_id": 365,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 366
 					},
@@ -1538,12 +1507,10 @@
 	{
 		"name": "内蒙古自治区",
 		"region_id": 380,
-		"sub": [
-			{
+		"sub": [{
 				"name": "呼和浩特市",
 				"region_id": 381,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 382
 					},
@@ -1588,8 +1555,7 @@
 			{
 				"name": "包头市",
 				"region_id": 392,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 393
 					},
@@ -1634,8 +1600,7 @@
 			{
 				"name": "乌海市",
 				"region_id": 403,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 404
 					},
@@ -1656,8 +1621,7 @@
 			{
 				"name": "赤峰市",
 				"region_id": 408,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 409
 					},
@@ -1714,8 +1678,7 @@
 			{
 				"name": "通辽市",
 				"region_id": 422,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 423
 					},
@@ -1756,8 +1719,7 @@
 			{
 				"name": "鄂尔多斯市",
 				"region_id": 432,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 433
 					},
@@ -1802,8 +1764,7 @@
 			{
 				"name": "呼伦贝尔市",
 				"region_id": 442,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 443
 					},
@@ -1868,8 +1829,7 @@
 			{
 				"name": "巴彦淖尔市",
 				"region_id": 457,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 458
 					},
@@ -1906,8 +1866,7 @@
 			{
 				"name": "乌兰察布市",
 				"region_id": 466,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 467
 					},
@@ -1960,8 +1919,7 @@
 			{
 				"name": "兴安盟",
 				"region_id": 479,
-				"sub": [
-					{
+				"sub": [{
 						"name": "乌兰浩特市",
 						"region_id": 480
 					},
@@ -1990,8 +1948,7 @@
 			{
 				"name": "锡林郭勒盟",
 				"region_id": 486,
-				"sub": [
-					{
+				"sub": [{
 						"name": "二连浩特市",
 						"region_id": 487
 					},
@@ -2044,8 +2001,7 @@
 			{
 				"name": "阿拉善盟",
 				"region_id": 499,
-				"sub": [
-					{
+				"sub": [{
 						"name": "阿拉善左旗",
 						"region_id": 500
 					},
@@ -2064,12 +2020,10 @@
 	{
 		"name": "辽宁省",
 		"region_id": 503,
-		"sub": [
-			{
+		"sub": [{
 				"name": "沈阳市",
 				"region_id": 504,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 505
 					},
@@ -2130,8 +2084,7 @@
 			{
 				"name": "大连市",
 				"region_id": 519,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 520
 					},
@@ -2180,8 +2133,7 @@
 			{
 				"name": "鞍山市",
 				"region_id": 531,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 532
 					},
@@ -2218,8 +2170,7 @@
 			{
 				"name": "抚顺市",
 				"region_id": 540,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 541
 					},
@@ -2256,8 +2207,7 @@
 			{
 				"name": "本溪市",
 				"region_id": 549,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 550
 					},
@@ -2290,8 +2240,7 @@
 			{
 				"name": "丹东市",
 				"region_id": 557,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 558
 					},
@@ -2324,8 +2273,7 @@
 			{
 				"name": "锦州市",
 				"region_id": 565,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 566
 					},
@@ -2362,8 +2310,7 @@
 			{
 				"name": "营口市",
 				"region_id": 574,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 575
 					},
@@ -2396,8 +2343,7 @@
 			{
 				"name": "阜新市",
 				"region_id": 582,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 583
 					},
@@ -2434,8 +2380,7 @@
 			{
 				"name": "辽阳市",
 				"region_id": 591,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 592
 					},
@@ -2472,8 +2417,7 @@
 			{
 				"name": "盘锦市",
 				"region_id": 600,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 601
 					},
@@ -2498,8 +2442,7 @@
 			{
 				"name": "铁岭市",
 				"region_id": 606,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 607
 					},
@@ -2536,8 +2479,7 @@
 			{
 				"name": "朝阳市",
 				"region_id": 615,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 616
 					},
@@ -2574,8 +2516,7 @@
 			{
 				"name": "葫芦岛市",
 				"region_id": 624,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 625
 					},
@@ -2610,12 +2551,10 @@
 	{
 		"name": "吉林省",
 		"region_id": 632,
-		"sub": [
-			{
+		"sub": [{
 				"name": "长春市",
 				"region_id": 633,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 634
 					},
@@ -2664,8 +2603,7 @@
 			{
 				"name": "吉林市",
 				"region_id": 645,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 646
 					},
@@ -2710,8 +2648,7 @@
 			{
 				"name": "四平市",
 				"region_id": 656,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 657
 					},
@@ -2744,8 +2681,7 @@
 			{
 				"name": "辽源市",
 				"region_id": 664,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 665
 					},
@@ -2770,8 +2706,7 @@
 			{
 				"name": "通化市",
 				"region_id": 670,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 671
 					},
@@ -2808,8 +2743,7 @@
 			{
 				"name": "白山市",
 				"region_id": 679,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 680
 					},
@@ -2842,8 +2776,7 @@
 			{
 				"name": "松原市",
 				"region_id": 687,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 688
 					},
@@ -2872,8 +2805,7 @@
 			{
 				"name": "白城市",
 				"region_id": 694,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 695
 					},
@@ -2902,8 +2834,7 @@
 			{
 				"name": "延边朝鲜族自治州",
 				"region_id": 701,
-				"sub": [
-					{
+				"sub": [{
 						"name": "延吉市",
 						"region_id": 702
 					},
@@ -2942,12 +2873,10 @@
 	{
 		"name": "黑龙江省",
 		"region_id": 710,
-		"sub": [
-			{
+		"sub": [{
 				"name": "哈尔滨市",
 				"region_id": 711,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 712
 					},
@@ -3028,8 +2957,7 @@
 			{
 				"name": "齐齐哈尔市",
 				"region_id": 731,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 732
 					},
@@ -3102,8 +3030,7 @@
 			{
 				"name": "鸡西市",
 				"region_id": 749,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 750
 					},
@@ -3148,8 +3075,7 @@
 			{
 				"name": "鹤岗市",
 				"region_id": 760,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 761
 					},
@@ -3190,8 +3116,7 @@
 			{
 				"name": "双鸭山市",
 				"region_id": 770,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 771
 					},
@@ -3232,8 +3157,7 @@
 			{
 				"name": "大庆市",
 				"region_id": 780,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 781
 					},
@@ -3278,8 +3202,7 @@
 			{
 				"name": "伊春市",
 				"region_id": 791,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 792
 					},
@@ -3356,8 +3279,7 @@
 			{
 				"name": "佳木斯市",
 				"region_id": 810,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 811
 					},
@@ -3406,8 +3328,7 @@
 			{
 				"name": "七台河市",
 				"region_id": 822,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 823
 					},
@@ -3432,8 +3353,7 @@
 			{
 				"name": "牡丹江市",
 				"region_id": 828,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 829
 					},
@@ -3482,8 +3402,7 @@
 			{
 				"name": "黑河市",
 				"region_id": 840,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 841
 					},
@@ -3516,8 +3435,7 @@
 			{
 				"name": "绥化市",
 				"region_id": 848,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 849
 					},
@@ -3566,8 +3484,7 @@
 			{
 				"name": "大兴安岭地区",
 				"region_id": 860,
-				"sub": [
-					{
+				"sub": [{
 						"name": "呼玛县",
 						"region_id": 861
 					},
@@ -3586,88 +3503,83 @@
 	{
 		"name": "上海市",
 		"region_id": 864,
-		"sub": [
-			{
-				"name": "市辖区",
-				"region_id": 865,
-				"sub": [
-					{
-						"name": "黄浦区",
-						"region_id": 866
-					},
-					{
-						"name": "徐汇区",
-						"region_id": 868
-					},
-					{
-						"name": "长宁区",
-						"region_id": 869
-					},
-					{
-						"name": "静安区",
-						"region_id": 870
-					},
-					{
-						"name": "普陀区",
-						"region_id": 871
-					},
-					{
-						"name": "虹口区",
-						"region_id": 873
-					},
-					{
-						"name": "杨浦区",
-						"region_id": 874
-					},
-					{
-						"name": "闵行区",
-						"region_id": 875
-					},
-					{
-						"name": "宝山区",
-						"region_id": 876
-					},
-					{
-						"name": "嘉定区",
-						"region_id": 877
-					},
-					{
-						"name": "浦东新区",
-						"region_id": 878
-					},
-					{
-						"name": "金山区",
-						"region_id": 879
-					},
-					{
-						"name": "松江区",
-						"region_id": 880
-					},
-					{
-						"name": "青浦区",
-						"region_id": 881
-					},
-					{
-						"name": "奉贤区",
-						"region_id": 883
-					},
-					{
-						"name": "崇明区",
-						"region_id": 885
-					}
-				]
-			}
-		]
+		"sub": [{
+			"name": "市辖区",
+			"region_id": 865,
+			"sub": [{
+					"name": "黄浦区",
+					"region_id": 866
+				},
+				{
+					"name": "徐汇区",
+					"region_id": 868
+				},
+				{
+					"name": "长宁区",
+					"region_id": 869
+				},
+				{
+					"name": "静安区",
+					"region_id": 870
+				},
+				{
+					"name": "普陀区",
+					"region_id": 871
+				},
+				{
+					"name": "虹口区",
+					"region_id": 873
+				},
+				{
+					"name": "杨浦区",
+					"region_id": 874
+				},
+				{
+					"name": "闵行区",
+					"region_id": 875
+				},
+				{
+					"name": "宝山区",
+					"region_id": 876
+				},
+				{
+					"name": "嘉定区",
+					"region_id": 877
+				},
+				{
+					"name": "浦东新区",
+					"region_id": 878
+				},
+				{
+					"name": "金山区",
+					"region_id": 879
+				},
+				{
+					"name": "松江区",
+					"region_id": 880
+				},
+				{
+					"name": "青浦区",
+					"region_id": 881
+				},
+				{
+					"name": "奉贤区",
+					"region_id": 883
+				},
+				{
+					"name": "崇明区",
+					"region_id": 885
+				}
+			]
+		}]
 	},
 	{
 		"name": "江苏省",
 		"region_id": 886,
-		"sub": [
-			{
+		"sub": [{
 				"name": "南京市",
 				"region_id": 887,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 888
 					},
@@ -3720,8 +3632,7 @@
 			{
 				"name": "无锡市",
 				"region_id": 902,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 903
 					},
@@ -3758,8 +3669,7 @@
 			{
 				"name": "徐州市",
 				"region_id": 912,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 913
 					},
@@ -3808,8 +3718,7 @@
 			{
 				"name": "常州市",
 				"region_id": 925,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 926
 					},
@@ -3842,8 +3751,7 @@
 			{
 				"name": "苏州市",
 				"region_id": 934,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 935
 					},
@@ -3888,8 +3796,7 @@
 			{
 				"name": "南通市",
 				"region_id": 947,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 948
 					},
@@ -3930,8 +3837,7 @@
 			{
 				"name": "连云港市",
 				"region_id": 957,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 958
 					},
@@ -3964,8 +3870,7 @@
 			{
 				"name": "淮安市",
 				"region_id": 966,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 967
 					},
@@ -4002,8 +3907,7 @@
 			{
 				"name": "盐城市",
 				"region_id": 976,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 977
 					},
@@ -4048,8 +3952,7 @@
 			{
 				"name": "扬州市",
 				"region_id": 987,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 988
 					},
@@ -4082,8 +3985,7 @@
 			{
 				"name": "镇江市",
 				"region_id": 996,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 997
 					},
@@ -4116,8 +4018,7 @@
 			{
 				"name": "泰州市",
 				"region_id": 1004,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1005
 					},
@@ -4150,8 +4051,7 @@
 			{
 				"name": "宿迁市",
 				"region_id": 1012,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1013
 					},
@@ -4182,12 +4082,10 @@
 	{
 		"name": "浙江省",
 		"region_id": 1019,
-		"sub": [
-			{
+		"sub": [{
 				"name": "杭州市",
 				"region_id": 1020,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1021
 					},
@@ -4248,8 +4146,7 @@
 			{
 				"name": "宁波市",
 				"region_id": 1035,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1036
 					},
@@ -4302,8 +4199,7 @@
 			{
 				"name": "温州市",
 				"region_id": 1048,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1049
 					},
@@ -4356,8 +4252,7 @@
 			{
 				"name": "嘉兴市",
 				"region_id": 1061,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1062
 					},
@@ -4394,8 +4289,7 @@
 			{
 				"name": "湖州市",
 				"region_id": 1070,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1071
 					},
@@ -4424,8 +4318,7 @@
 			{
 				"name": "绍兴市",
 				"region_id": 1077,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1078
 					},
@@ -4458,8 +4351,7 @@
 			{
 				"name": "金华市",
 				"region_id": 1085,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1086
 					},
@@ -4504,8 +4396,7 @@
 			{
 				"name": "衢州市",
 				"region_id": 1096,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1097
 					},
@@ -4538,8 +4429,7 @@
 			{
 				"name": "舟山市",
 				"region_id": 1104,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1105
 					},
@@ -4564,8 +4454,7 @@
 			{
 				"name": "台州市",
 				"region_id": 1110,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1111
 					},
@@ -4610,8 +4499,7 @@
 			{
 				"name": "丽水市",
 				"region_id": 1121,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1122
 					},
@@ -4658,12 +4546,10 @@
 	{
 		"name": "安徽省",
 		"region_id": 1132,
-		"sub": [
-			{
+		"sub": [{
 				"name": "合肥市",
 				"region_id": 1133,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1134
 					},
@@ -4708,8 +4594,7 @@
 			{
 				"name": "芜湖市",
 				"region_id": 1142,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1143
 					},
@@ -4750,8 +4635,7 @@
 			{
 				"name": "蚌埠市",
 				"region_id": 1151,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1152
 					},
@@ -4788,8 +4672,7 @@
 			{
 				"name": "淮南市",
 				"region_id": 1160,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1161
 					},
@@ -4826,8 +4709,7 @@
 			{
 				"name": "马鞍山市",
 				"region_id": 1168,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1169
 					},
@@ -4860,8 +4742,7 @@
 			{
 				"name": "淮北市",
 				"region_id": 1174,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1175
 					},
@@ -4886,8 +4767,7 @@
 			{
 				"name": "铜陵市",
 				"region_id": 1180,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1181
 					},
@@ -4912,8 +4792,7 @@
 			{
 				"name": "安庆市",
 				"region_id": 1186,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1187
 					},
@@ -4962,8 +4841,7 @@
 			{
 				"name": "黄山市",
 				"region_id": 1199,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1200
 					},
@@ -5000,8 +4878,7 @@
 			{
 				"name": "滁州市",
 				"region_id": 1208,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1209
 					},
@@ -5042,8 +4919,7 @@
 			{
 				"name": "阜阳市",
 				"region_id": 1218,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1219
 					},
@@ -5084,8 +4960,7 @@
 			{
 				"name": "宿州市",
 				"region_id": 1228,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1229
 					},
@@ -5114,8 +4989,7 @@
 			{
 				"name": "六安市",
 				"region_id": 1242,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1243
 					},
@@ -5152,8 +5026,7 @@
 			{
 				"name": "亳州市",
 				"region_id": 1251,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1252
 					},
@@ -5178,8 +5051,7 @@
 			{
 				"name": "池州市",
 				"region_id": 1257,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1258
 					},
@@ -5204,8 +5076,7 @@
 			{
 				"name": "宣城市",
 				"region_id": 1263,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1264
 					},
@@ -5244,12 +5115,10 @@
 	{
 		"name": "福建省",
 		"region_id": 1272,
-		"sub": [
-			{
+		"sub": [{
 				"name": "福州市",
 				"region_id": 1273,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1274
 					},
@@ -5310,8 +5179,7 @@
 			{
 				"name": "厦门市",
 				"region_id": 1288,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1289
 					},
@@ -5344,8 +5212,7 @@
 			{
 				"name": "莆田市",
 				"region_id": 1296,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1297
 					},
@@ -5374,8 +5241,7 @@
 			{
 				"name": "三明市",
 				"region_id": 1303,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1304
 					},
@@ -5432,8 +5298,7 @@
 			{
 				"name": "泉州市",
 				"region_id": 1317,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1318
 					},
@@ -5490,8 +5355,7 @@
 			{
 				"name": "漳州市",
 				"region_id": 1331,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1332
 					},
@@ -5544,8 +5408,7 @@
 			{
 				"name": "南平市",
 				"region_id": 1344,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1345
 					},
@@ -5594,8 +5457,7 @@
 			{
 				"name": "龙岩市",
 				"region_id": 1356,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1357
 					},
@@ -5632,8 +5494,7 @@
 			{
 				"name": "宁德市",
 				"region_id": 1365,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1366
 					},
@@ -5680,12 +5541,10 @@
 	{
 		"name": "江西省",
 		"region_id": 1376,
-		"sub": [
-			{
+		"sub": [{
 				"name": "南昌市",
 				"region_id": 1377,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1378
 					},
@@ -5730,8 +5589,7 @@
 			{
 				"name": "景德镇市",
 				"region_id": 1388,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1389
 					},
@@ -5756,8 +5614,7 @@
 			{
 				"name": "萍乡市",
 				"region_id": 1394,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1395
 					},
@@ -5786,8 +5643,7 @@
 			{
 				"name": "九江市",
 				"region_id": 1401,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1402
 					},
@@ -5848,8 +5704,7 @@
 			{
 				"name": "新余市",
 				"region_id": 1415,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1416
 					},
@@ -5866,8 +5721,7 @@
 			{
 				"name": "鹰潭市",
 				"region_id": 1419,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1420
 					},
@@ -5888,8 +5742,7 @@
 			{
 				"name": "赣州市",
 				"region_id": 1424,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1425
 					},
@@ -5970,8 +5823,7 @@
 			{
 				"name": "吉安市",
 				"region_id": 1444,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1445
 					},
@@ -6032,8 +5884,7 @@
 			{
 				"name": "宜春市",
 				"region_id": 1459,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1460
 					},
@@ -6082,8 +5933,7 @@
 			{
 				"name": "抚州市",
 				"region_id": 1471,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1472
 					},
@@ -6136,8 +5986,7 @@
 			{
 				"name": "上饶市",
 				"region_id": 1484,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1485
 					},
@@ -6196,12 +6045,10 @@
 	{
 		"name": "山东省",
 		"region_id": 1498,
-		"sub": [
-			{
+		"sub": [{
 				"name": "济南市",
 				"region_id": 1499,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1500
 					},
@@ -6250,8 +6097,7 @@
 			{
 				"name": "青岛市",
 				"region_id": 1511,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1512
 					},
@@ -6300,8 +6146,7 @@
 			{
 				"name": "淄博市",
 				"region_id": 1525,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1526
 					},
@@ -6342,8 +6187,7 @@
 			{
 				"name": "枣庄市",
 				"region_id": 1535,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1536
 					},
@@ -6376,8 +6220,7 @@
 			{
 				"name": "东营市",
 				"region_id": 1543,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1544
 					},
@@ -6406,8 +6249,7 @@
 			{
 				"name": "烟台市",
 				"region_id": 1550,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1551
 					},
@@ -6464,8 +6306,7 @@
 			{
 				"name": "潍坊市",
 				"region_id": 1564,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1565
 					},
@@ -6522,8 +6363,7 @@
 			{
 				"name": "济宁市",
 				"region_id": 1578,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1579
 					},
@@ -6576,8 +6416,7 @@
 			{
 				"name": "泰安市",
 				"region_id": 1592,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1593
 					},
@@ -6610,8 +6449,7 @@
 			{
 				"name": "威海市",
 				"region_id": 1600,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1601
 					},
@@ -6636,8 +6474,7 @@
 			{
 				"name": "日照市",
 				"region_id": 1606,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1607
 					},
@@ -6662,8 +6499,7 @@
 			{
 				"name": "莱芜市",
 				"region_id": 1612,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1613
 					},
@@ -6680,8 +6516,7 @@
 			{
 				"name": "临沂市",
 				"region_id": 1616,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1617
 					},
@@ -6738,8 +6573,7 @@
 			{
 				"name": "德州市",
 				"region_id": 1630,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1631
 					},
@@ -6792,8 +6626,7 @@
 			{
 				"name": "聊城市",
 				"region_id": 1643,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1644
 					},
@@ -6834,8 +6667,7 @@
 			{
 				"name": "滨州市",
 				"region_id": 1653,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1654
 					},
@@ -6872,8 +6704,7 @@
 			{
 				"name": "菏泽市",
 				"region_id": 1662,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1663
 					},
@@ -6920,12 +6751,10 @@
 	{
 		"name": "河南省",
 		"region_id": 1673,
-		"sub": [
-			{
+		"sub": [{
 				"name": "郑州市",
 				"region_id": 1674,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1675
 					},
@@ -6982,8 +6811,7 @@
 			{
 				"name": "开封市",
 				"region_id": 1688,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1689
 					},
@@ -7028,8 +6856,7 @@
 			{
 				"name": "洛阳市",
 				"region_id": 1700,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1701
 					},
@@ -7098,8 +6925,7 @@
 			{
 				"name": "平顶山市",
 				"region_id": 1717,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1718
 					},
@@ -7148,8 +6974,7 @@
 			{
 				"name": "安阳市",
 				"region_id": 1729,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1730
 					},
@@ -7194,8 +7019,7 @@
 			{
 				"name": "鹤壁市",
 				"region_id": 1740,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1741
 					},
@@ -7224,8 +7048,7 @@
 			{
 				"name": "新乡市",
 				"region_id": 1747,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1748
 					},
@@ -7282,8 +7105,7 @@
 			{
 				"name": "焦作市",
 				"region_id": 1761,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1762
 					},
@@ -7332,8 +7154,7 @@
 			{
 				"name": "濮阳市",
 				"region_id": 1773,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1774
 					},
@@ -7366,8 +7187,7 @@
 			{
 				"name": "许昌市",
 				"region_id": 1781,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1782
 					},
@@ -7400,8 +7220,7 @@
 			{
 				"name": "漯河市",
 				"region_id": 1789,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1790
 					},
@@ -7430,8 +7249,7 @@
 			{
 				"name": "三门峡市",
 				"region_id": 1796,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1797
 					},
@@ -7464,8 +7282,7 @@
 			{
 				"name": "南阳市",
 				"region_id": 1804,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1805
 					},
@@ -7526,8 +7343,7 @@
 			{
 				"name": "商丘市",
 				"region_id": 1819,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1820
 					},
@@ -7572,8 +7388,7 @@
 			{
 				"name": "信阳市",
 				"region_id": 1830,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1831
 					},
@@ -7622,8 +7437,7 @@
 			{
 				"name": "周口市",
 				"region_id": 1842,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1843
 					},
@@ -7672,8 +7486,7 @@
 			{
 				"name": "驻马店市",
 				"region_id": 1854,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1855
 					},
@@ -7722,24 +7535,20 @@
 			{
 				"name": "省直辖县级行政区划",
 				"region_id": 1866,
-				"sub": [
-					{
-						"name": "济源市",
-						"region_id": 1867
-					}
-				]
+				"sub": [{
+					"name": "济源市",
+					"region_id": 1867
+				}]
 			}
 		]
 	},
 	{
 		"name": "湖北省",
 		"region_id": 1868,
-		"sub": [
-			{
+		"sub": [{
 				"name": "武汉市",
 				"region_id": 1869,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1870
 					},
@@ -7800,8 +7609,7 @@
 			{
 				"name": "黄石市",
 				"region_id": 1884,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1885
 					},
@@ -7834,8 +7642,7 @@
 			{
 				"name": "十堰市",
 				"region_id": 1892,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1893
 					},
@@ -7876,8 +7683,7 @@
 			{
 				"name": "宜昌市",
 				"region_id": 1902,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1903
 					},
@@ -7938,8 +7744,7 @@
 			{
 				"name": "襄阳市",
 				"region_id": 1917,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1918
 					},
@@ -7984,8 +7789,7 @@
 			{
 				"name": "鄂州市",
 				"region_id": 1928,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1929
 					},
@@ -8006,8 +7810,7 @@
 			{
 				"name": "荆门市",
 				"region_id": 1933,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1934
 					},
@@ -8036,8 +7839,7 @@
 			{
 				"name": "孝感市",
 				"region_id": 1940,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1941
 					},
@@ -8074,8 +7876,7 @@
 			{
 				"name": "荆州市",
 				"region_id": 1949,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1950
 					},
@@ -8116,8 +7917,7 @@
 			{
 				"name": "黄冈市",
 				"region_id": 1959,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1960
 					},
@@ -8166,8 +7966,7 @@
 			{
 				"name": "咸宁市",
 				"region_id": 1971,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1972
 					},
@@ -8200,8 +7999,7 @@
 			{
 				"name": "随州市",
 				"region_id": 1979,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1980
 					},
@@ -8222,8 +8020,7 @@
 			{
 				"name": "恩施土家族苗族自治州",
 				"region_id": 1983,
-				"sub": [
-					{
+				"sub": [{
 						"name": "恩施市",
 						"region_id": 1984
 					},
@@ -8260,8 +8057,7 @@
 			{
 				"name": "省直辖县级行政区划",
 				"region_id": 1992,
-				"sub": [
-					{
+				"sub": [{
 						"name": "仙桃市",
 						"region_id": 1993
 					},
@@ -8284,12 +8080,10 @@
 	{
 		"name": "湖南省",
 		"region_id": 1997,
-		"sub": [
-			{
+		"sub": [{
 				"name": "长沙市",
 				"region_id": 1998,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 1999
 					},
@@ -8334,8 +8128,7 @@
 			{
 				"name": "株洲市",
 				"region_id": 2009,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2010
 					},
@@ -8380,8 +8173,7 @@
 			{
 				"name": "湘潭市",
 				"region_id": 2020,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2021
 					},
@@ -8410,8 +8202,7 @@
 			{
 				"name": "衡阳市",
 				"region_id": 2027,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2028
 					},
@@ -8468,8 +8259,7 @@
 			{
 				"name": "邵阳市",
 				"region_id": 2041,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2042
 					},
@@ -8526,8 +8316,7 @@
 			{
 				"name": "岳阳市",
 				"region_id": 2055,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2056
 					},
@@ -8572,8 +8361,7 @@
 			{
 				"name": "常德市",
 				"region_id": 2066,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2067
 					},
@@ -8618,8 +8406,7 @@
 			{
 				"name": "张家界市",
 				"region_id": 2077,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2078
 					},
@@ -8644,8 +8431,7 @@
 			{
 				"name": "益阳市",
 				"region_id": 2083,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2084
 					},
@@ -8678,8 +8464,7 @@
 			{
 				"name": "郴州市",
 				"region_id": 2091,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2092
 					},
@@ -8732,8 +8517,7 @@
 			{
 				"name": "永州市",
 				"region_id": 2104,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2105
 					},
@@ -8786,8 +8570,7 @@
 			{
 				"name": "怀化市",
 				"region_id": 2117,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2118
 					},
@@ -8844,8 +8627,7 @@
 			{
 				"name": "娄底市",
 				"region_id": 2131,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2132
 					},
@@ -8874,8 +8656,7 @@
 			{
 				"name": "湘西土家族苗族自治州",
 				"region_id": 2138,
-				"sub": [
-					{
+				"sub": [{
 						"name": "吉首市",
 						"region_id": 2139
 					},
@@ -8914,12 +8695,10 @@
 	{
 		"name": "广东省",
 		"region_id": 2147,
-		"sub": [
-			{
+		"sub": [{
 				"name": "广州市",
 				"region_id": 2148,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2149
 					},
@@ -8972,8 +8751,7 @@
 			{
 				"name": "韶关市",
 				"region_id": 2162,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2163
 					},
@@ -9022,8 +8800,7 @@
 			{
 				"name": "深圳市",
 				"region_id": 2174,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2175
 					},
@@ -9056,8 +8833,7 @@
 			{
 				"name": "珠海市",
 				"region_id": 2182,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2183
 					},
@@ -9078,8 +8854,7 @@
 			{
 				"name": "汕头市",
 				"region_id": 2187,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2188
 					},
@@ -9116,8 +8891,7 @@
 			{
 				"name": "佛山市",
 				"region_id": 2196,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2197
 					},
@@ -9146,8 +8920,7 @@
 			{
 				"name": "江门市",
 				"region_id": 2203,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2204
 					},
@@ -9184,8 +8957,7 @@
 			{
 				"name": "湛江市",
 				"region_id": 2212,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2213
 					},
@@ -9230,8 +9002,7 @@
 			{
 				"name": "茂名市",
 				"region_id": 2223,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2224
 					},
@@ -9260,8 +9031,7 @@
 			{
 				"name": "肇庆市",
 				"region_id": 2231,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2232
 					},
@@ -9302,8 +9072,7 @@
 			{
 				"name": "惠州市",
 				"region_id": 2241,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2242
 					},
@@ -9332,8 +9101,7 @@
 			{
 				"name": "梅州市",
 				"region_id": 2248,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2249
 					},
@@ -9374,8 +9142,7 @@
 			{
 				"name": "汕尾市",
 				"region_id": 2258,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2259
 					},
@@ -9400,8 +9167,7 @@
 			{
 				"name": "河源市",
 				"region_id": 2264,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2265
 					},
@@ -9434,8 +9200,7 @@
 			{
 				"name": "阳江市",
 				"region_id": 2272,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2273
 					},
@@ -9460,8 +9225,7 @@
 			{
 				"name": "清远市",
 				"region_id": 2278,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2279
 					},
@@ -9512,8 +9276,7 @@
 			{
 				"name": "潮州市",
 				"region_id": 2290,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2291
 					},
@@ -9534,8 +9297,7 @@
 			{
 				"name": "揭阳市",
 				"region_id": 2295,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2296
 					},
@@ -9564,8 +9326,7 @@
 			{
 				"name": "云浮市",
 				"region_id": 2302,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2303
 					},
@@ -9596,12 +9357,10 @@
 	{
 		"name": "广西壮族自治区",
 		"region_id": 2309,
-		"sub": [
-			{
+		"sub": [{
 				"name": "南宁市",
 				"region_id": 2310,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2311
 					},
@@ -9658,8 +9417,7 @@
 			{
 				"name": "柳州市",
 				"region_id": 2324,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2325
 					},
@@ -9708,8 +9466,7 @@
 			{
 				"name": "桂林市",
 				"region_id": 2336,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2337
 					},
@@ -9786,8 +9543,7 @@
 			{
 				"name": "梧州市",
 				"region_id": 2355,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2356
 					},
@@ -9824,8 +9580,7 @@
 			{
 				"name": "北海市",
 				"region_id": 2364,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2365
 					},
@@ -9850,8 +9605,7 @@
 			{
 				"name": "防城港市",
 				"region_id": 2370,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2371
 					},
@@ -9876,8 +9630,7 @@
 			{
 				"name": "钦州市",
 				"region_id": 2376,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2377
 					},
@@ -9902,8 +9655,7 @@
 			{
 				"name": "贵港市",
 				"region_id": 2382,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2383
 					},
@@ -9932,8 +9684,7 @@
 			{
 				"name": "玉林市",
 				"region_id": 2389,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2390
 					},
@@ -9970,8 +9721,7 @@
 			{
 				"name": "百色市",
 				"region_id": 2397,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2398
 					},
@@ -10028,8 +9778,7 @@
 			{
 				"name": "贺州市",
 				"region_id": 2411,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2412
 					},
@@ -10058,8 +9807,7 @@
 			{
 				"name": "河池市",
 				"region_id": 2417,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2418
 					},
@@ -10112,8 +9860,7 @@
 			{
 				"name": "来宾市",
 				"region_id": 2430,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2431
 					},
@@ -10146,8 +9893,7 @@
 			{
 				"name": "崇左市",
 				"region_id": 2438,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2439
 					},
@@ -10186,12 +9932,10 @@
 	{
 		"name": "海南省",
 		"region_id": 2447,
-		"sub": [
-			{
+		"sub": [{
 				"name": "海口市",
 				"region_id": 2448,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2449
 					},
@@ -10216,8 +9960,7 @@
 			{
 				"name": "三亚市",
 				"region_id": 2454,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2455
 					},
@@ -10242,8 +9985,7 @@
 			{
 				"name": "省直辖县级行政区划",
 				"region_id": 2456,
-				"sub": [
-					{
+				"sub": [{
 						"name": "五指山市",
 						"region_id": 2457
 					},
@@ -10326,12 +10068,10 @@
 	{
 		"name": "重庆市",
 		"region_id": 2476,
-		"sub": [
-			{
+		"sub": [{
 				"name": "市辖区",
 				"region_id": 2477,
-				"sub": [
-					{
+				"sub": [{
 						"name": "万州区",
 						"region_id": 2478
 					},
@@ -10432,8 +10172,7 @@
 			{
 				"name": "县",
 				"region_id": 2497,
-				"sub": [
-					{
+				"sub": [{
 						"name": "梁平县",
 						"region_id": 2504
 					},
@@ -10496,12 +10235,10 @@
 	{
 		"name": "四川省",
 		"region_id": 2519,
-		"sub": [
-			{
+		"sub": [{
 				"name": "成都市",
 				"region_id": 2520,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2521
 					},
@@ -10590,8 +10327,7 @@
 			{
 				"name": "自贡市",
 				"region_id": 2541,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2542
 					},
@@ -10624,8 +10360,7 @@
 			{
 				"name": "攀枝花市",
 				"region_id": 2549,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2550
 					},
@@ -10654,8 +10389,7 @@
 			{
 				"name": "泸州市",
 				"region_id": 2556,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2557
 					},
@@ -10692,8 +10426,7 @@
 			{
 				"name": "德阳市",
 				"region_id": 2565,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2566
 					},
@@ -10726,8 +10459,7 @@
 			{
 				"name": "绵阳市",
 				"region_id": 2573,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2574
 					},
@@ -10772,8 +10504,7 @@
 			{
 				"name": "广元市",
 				"region_id": 2584,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2585
 					},
@@ -10810,8 +10541,7 @@
 			{
 				"name": "遂宁市",
 				"region_id": 2593,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2594
 					},
@@ -10840,8 +10570,7 @@
 			{
 				"name": "内江市",
 				"region_id": 2600,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2601
 					},
@@ -10870,8 +10599,7 @@
 			{
 				"name": "乐山市",
 				"region_id": 2607,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2608
 					},
@@ -10924,8 +10652,7 @@
 			{
 				"name": "南充市",
 				"region_id": 2620,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2621
 					},
@@ -10970,8 +10697,7 @@
 			{
 				"name": "眉山市",
 				"region_id": 2631,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2632
 					},
@@ -11004,8 +10730,7 @@
 			{
 				"name": "宜宾市",
 				"region_id": 2639,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2640
 					},
@@ -11054,8 +10779,7 @@
 			{
 				"name": "广安市",
 				"region_id": 2651,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2652
 					},
@@ -11088,8 +10812,7 @@
 			{
 				"name": "达州市",
 				"region_id": 2658,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2659
 					},
@@ -11126,8 +10849,7 @@
 			{
 				"name": "雅安市",
 				"region_id": 2667,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2668
 					},
@@ -11168,8 +10890,7 @@
 			{
 				"name": "巴中市",
 				"region_id": 2677,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2678
 					},
@@ -11198,8 +10919,7 @@
 			{
 				"name": "资阳市",
 				"region_id": 2683,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2684
 					},
@@ -11220,8 +10940,7 @@
 			{
 				"name": "阿坝藏族羌族自治州",
 				"region_id": 2689,
-				"sub": [
-					{
+				"sub": [{
 						"name": "马尔康市",
 						"region_id": 2698
 					},
@@ -11278,8 +10997,7 @@
 			{
 				"name": "甘孜藏族自治州",
 				"region_id": 2703,
-				"sub": [
-					{
+				"sub": [{
 						"name": "康定市",
 						"region_id": 2704
 					},
@@ -11356,8 +11074,7 @@
 			{
 				"name": "凉山彝族自治州",
 				"region_id": 2722,
-				"sub": [
-					{
+				"sub": [{
 						"name": "西昌市",
 						"region_id": 2723
 					},
@@ -11432,12 +11149,10 @@
 	{
 		"name": "贵州省",
 		"region_id": 2740,
-		"sub": [
-			{
+		"sub": [{
 				"name": "贵阳市",
 				"region_id": 2741,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2742
 					},
@@ -11486,8 +11201,7 @@
 			{
 				"name": "六盘水市",
 				"region_id": 2753,
-				"sub": [
-					{
+				"sub": [{
 						"name": "钟山区",
 						"region_id": 2754
 					},
@@ -11508,8 +11222,7 @@
 			{
 				"name": "遵义市",
 				"region_id": 2758,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2759
 					},
@@ -11574,8 +11287,7 @@
 			{
 				"name": "安顺市",
 				"region_id": 2774,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2775
 					},
@@ -11608,8 +11320,7 @@
 			{
 				"name": "毕节市",
 				"region_id": 3539,
-				"sub": [
-					{
+				"sub": [{
 						"name": "七星关区",
 						"region_id": 3540
 					},
@@ -11646,8 +11357,7 @@
 			{
 				"name": "铜仁市",
 				"region_id": 3541,
-				"sub": [
-					{
+				"sub": [{
 						"name": "碧江区",
 						"region_id": 3542
 					},
@@ -11692,8 +11402,7 @@
 			{
 				"name": "黔西南布依族苗族自治州",
 				"region_id": 2793,
-				"sub": [
-					{
+				"sub": [{
 						"name": "兴义市",
 						"region_id": 2794
 					},
@@ -11730,8 +11439,7 @@
 			{
 				"name": "黔东南苗族侗族自治州",
 				"region_id": 2811,
-				"sub": [
-					{
+				"sub": [{
 						"name": "凯里市",
 						"region_id": 2812
 					},
@@ -11800,8 +11508,7 @@
 			{
 				"name": "黔南布依族苗族自治州",
 				"region_id": 2828,
-				"sub": [
-					{
+				"sub": [{
 						"name": "都匀市",
 						"region_id": 2829
 					},
@@ -11856,12 +11563,10 @@
 	{
 		"name": "云南省",
 		"region_id": 2841,
-		"sub": [
-			{
+		"sub": [{
 				"name": "昆明市",
 				"region_id": 2842,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2843
 					},
@@ -11926,8 +11631,7 @@
 			{
 				"name": "曲靖市",
 				"region_id": 2858,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2859
 					},
@@ -11972,8 +11676,7 @@
 			{
 				"name": "玉溪市",
 				"region_id": 2869,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2870
 					},
@@ -12018,8 +11721,7 @@
 			{
 				"name": "保山市",
 				"region_id": 2880,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2881
 					},
@@ -12048,8 +11750,7 @@
 			{
 				"name": "昭通市",
 				"region_id": 2887,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2888
 					},
@@ -12102,8 +11803,7 @@
 			{
 				"name": "丽江市",
 				"region_id": 2900,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2901
 					},
@@ -12132,8 +11832,7 @@
 			{
 				"name": "普洱市",
 				"region_id": 2907,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2908
 					},
@@ -12182,8 +11881,7 @@
 			{
 				"name": "临沧市",
 				"region_id": 2919,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2920
 					},
@@ -12224,8 +11922,7 @@
 			{
 				"name": "楚雄彝族自治州",
 				"region_id": 2929,
-				"sub": [
-					{
+				"sub": [{
 						"name": "楚雄市",
 						"region_id": 2930
 					},
@@ -12270,8 +11967,7 @@
 			{
 				"name": "红河哈尼族彝族自治州",
 				"region_id": 2940,
-				"sub": [
-					{
+				"sub": [{
 						"name": "个旧市",
 						"region_id": 2941
 					},
@@ -12328,8 +12024,7 @@
 			{
 				"name": "文山壮族苗族自治州",
 				"region_id": 2954,
-				"sub": [
-					{
+				"sub": [{
 						"name": "文山市",
 						"region_id": 2955
 					},
@@ -12366,8 +12061,7 @@
 			{
 				"name": "西双版纳傣族自治州",
 				"region_id": 2963,
-				"sub": [
-					{
+				"sub": [{
 						"name": "景洪市",
 						"region_id": 2964
 					},
@@ -12384,8 +12078,7 @@
 			{
 				"name": "大理白族自治州",
 				"region_id": 2967,
-				"sub": [
-					{
+				"sub": [{
 						"name": "大理市",
 						"region_id": 2968
 					},
@@ -12438,8 +12131,7 @@
 			{
 				"name": "德宏傣族景颇族自治州",
 				"region_id": 2980,
-				"sub": [
-					{
+				"sub": [{
 						"name": "瑞丽市",
 						"region_id": 2981
 					},
@@ -12464,8 +12156,7 @@
 			{
 				"name": "怒江傈僳族自治州",
 				"region_id": 2986,
-				"sub": [
-					{
+				"sub": [{
 						"name": "泸水市",
 						"region_id": 2987
 					},
@@ -12486,8 +12177,7 @@
 			{
 				"name": "迪庆藏族自治州",
 				"region_id": 2991,
-				"sub": [
-					{
+				"sub": [{
 						"name": "香格里拉市",
 						"region_id": 2992
 					},
@@ -12506,12 +12196,10 @@
 	{
 		"name": "西藏自治区",
 		"region_id": 2995,
-		"sub": [
-			{
+		"sub": [{
 				"name": "拉萨市",
 				"region_id": 2996,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 2997
 					},
@@ -12552,8 +12240,7 @@
 			{
 				"name": "日喀则市",
 				"region_id": 3544,
-				"sub": [
-					{
+				"sub": [{
 						"name": "桑珠孜区",
 						"region_id": 3556
 					},
@@ -12630,8 +12317,7 @@
 			{
 				"name": "昌都市",
 				"region_id": 3545,
-				"sub": [
-					{
+				"sub": [{
 						"name": "卡若区",
 						"region_id": 3557
 					},
@@ -12680,8 +12366,7 @@
 			{
 				"name": "林芝市",
 				"region_id": 3546,
-				"sub": [
-					{
+				"sub": [{
 						"name": "巴宜区",
 						"region_id": 3558
 					},
@@ -12714,8 +12399,7 @@
 			{
 				"name": "山南市",
 				"region_id": 3547,
-				"sub": [
-					{
+				"sub": [{
 						"name": "乃东区",
 						"region_id": 3548
 					},
@@ -12768,8 +12452,7 @@
 			{
 				"name": "那曲地区",
 				"region_id": 3050,
-				"sub": [
-					{
+				"sub": [{
 						"name": "那曲县",
 						"region_id": 3051
 					},
@@ -12818,8 +12501,7 @@
 			{
 				"name": "阿里地区",
 				"region_id": 3061,
-				"sub": [
-					{
+				"sub": [{
 						"name": "普兰县",
 						"region_id": 3062
 					},
@@ -12854,12 +12536,10 @@
 	{
 		"name": "陕西省",
 		"region_id": 3077,
-		"sub": [
-			{
+		"sub": [{
 				"name": "西安市",
 				"region_id": 3078,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3079
 					},
@@ -12920,8 +12600,7 @@
 			{
 				"name": "铜川市",
 				"region_id": 3093,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3094
 					},
@@ -12946,8 +12625,7 @@
 			{
 				"name": "宝鸡市",
 				"region_id": 3099,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3100
 					},
@@ -13004,8 +12682,7 @@
 			{
 				"name": "咸阳市",
 				"region_id": 3113,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3114
 					},
@@ -13070,8 +12747,7 @@
 			{
 				"name": "渭南市",
 				"region_id": 3129,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3130
 					},
@@ -13124,8 +12800,7 @@
 			{
 				"name": "延安市",
 				"region_id": 3142,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3143
 					},
@@ -13186,8 +12861,7 @@
 			{
 				"name": "汉中市",
 				"region_id": 3157,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3158
 					},
@@ -13240,8 +12914,7 @@
 			{
 				"name": "榆林市",
 				"region_id": 3170,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3171
 					},
@@ -13298,8 +12971,7 @@
 			{
 				"name": "安康市",
 				"region_id": 3184,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3185
 					},
@@ -13348,8 +13020,7 @@
 			{
 				"name": "商洛市",
 				"region_id": 3196,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3197
 					},
@@ -13388,12 +13059,10 @@
 	{
 		"name": "甘肃省",
 		"region_id": 3205,
-		"sub": [
-			{
+		"sub": [{
 				"name": "兰州市",
 				"region_id": 3206,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3207
 					},
@@ -13434,18 +13103,15 @@
 			{
 				"name": "嘉峪关市",
 				"region_id": 3216,
-				"sub": [
-					{
-						"name": "市辖区",
-						"region_id": 3217
-					}
-				]
+				"sub": [{
+					"name": "市辖区",
+					"region_id": 3217
+				}]
 			},
 			{
 				"name": "金昌市",
 				"region_id": 3218,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3219
 					},
@@ -13462,8 +13128,7 @@
 			{
 				"name": "白银市",
 				"region_id": 3222,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3223
 					},
@@ -13492,8 +13157,7 @@
 			{
 				"name": "天水市",
 				"region_id": 3229,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3230
 					},
@@ -13530,8 +13194,7 @@
 			{
 				"name": "武威市",
 				"region_id": 3238,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3239
 					},
@@ -13556,8 +13219,7 @@
 			{
 				"name": "张掖市",
 				"region_id": 3244,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3245
 					},
@@ -13590,8 +13252,7 @@
 			{
 				"name": "平凉市",
 				"region_id": 3252,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3253
 					},
@@ -13628,8 +13289,7 @@
 			{
 				"name": "酒泉市",
 				"region_id": 3261,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3262
 					},
@@ -13666,8 +13326,7 @@
 			{
 				"name": "庆阳市",
 				"region_id": 3270,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3271
 					},
@@ -13708,8 +13367,7 @@
 			{
 				"name": "定西市",
 				"region_id": 3280,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3281
 					},
@@ -13746,8 +13404,7 @@
 			{
 				"name": "陇南市",
 				"region_id": 3289,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3290
 					},
@@ -13792,8 +13449,7 @@
 			{
 				"name": "临夏回族自治州",
 				"region_id": 3300,
-				"sub": [
-					{
+				"sub": [{
 						"name": "临夏市",
 						"region_id": 3301
 					},
@@ -13830,8 +13486,7 @@
 			{
 				"name": "甘南藏族自治州",
 				"region_id": 3309,
-				"sub": [
-					{
+				"sub": [{
 						"name": "合作市",
 						"region_id": 3310
 					},
@@ -13870,12 +13525,10 @@
 	{
 		"name": "青海省",
 		"region_id": 3318,
-		"sub": [
-			{
+		"sub": [{
 				"name": "西宁市",
 				"region_id": 3319,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3320
 					},
@@ -13912,8 +13565,7 @@
 			{
 				"name": "海东市",
 				"region_id": 3550,
-				"sub": [
-					{
+				"sub": [{
 						"name": "乐都区",
 						"region_id": 3551
 					},
@@ -13942,8 +13594,7 @@
 			{
 				"name": "海北藏族自治州",
 				"region_id": 3335,
-				"sub": [
-					{
+				"sub": [{
 						"name": "门源回族自治县",
 						"region_id": 3336
 					},
@@ -13964,8 +13615,7 @@
 			{
 				"name": "黄南藏族自治州",
 				"region_id": 3340,
-				"sub": [
-					{
+				"sub": [{
 						"name": "同仁县",
 						"region_id": 3341
 					},
@@ -13986,8 +13636,7 @@
 			{
 				"name": "海南藏族自治州",
 				"region_id": 3345,
-				"sub": [
-					{
+				"sub": [{
 						"name": "共和县",
 						"region_id": 3346
 					},
@@ -14012,8 +13661,7 @@
 			{
 				"name": "果洛藏族自治州",
 				"region_id": 3351,
-				"sub": [
-					{
+				"sub": [{
 						"name": "玛沁县",
 						"region_id": 3352
 					},
@@ -14042,8 +13690,7 @@
 			{
 				"name": "玉树藏族自治州",
 				"region_id": 3358,
-				"sub": [
-					{
+				"sub": [{
 						"name": "玉树市",
 						"region_id": 3359
 					},
@@ -14072,8 +13719,7 @@
 			{
 				"name": "海西蒙古族藏族自治州",
 				"region_id": 3365,
-				"sub": [
-					{
+				"sub": [{
 						"name": "格尔木市",
 						"region_id": 3366
 					},
@@ -14100,12 +13746,10 @@
 	{
 		"name": "宁夏回族自治区",
 		"region_id": 3371,
-		"sub": [
-			{
+		"sub": [{
 				"name": "银川市",
 				"region_id": 3372,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3373
 					},
@@ -14138,8 +13782,7 @@
 			{
 				"name": "石嘴山市",
 				"region_id": 3380,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3381
 					},
@@ -14160,8 +13803,7 @@
 			{
 				"name": "吴忠市",
 				"region_id": 3385,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3386
 					},
@@ -14190,8 +13832,7 @@
 			{
 				"name": "固原市",
 				"region_id": 3391,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3392
 					},
@@ -14220,8 +13861,7 @@
 			{
 				"name": "中卫市",
 				"region_id": 3398,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3399
 					},
@@ -14244,12 +13884,10 @@
 	{
 		"name": "新疆维吾尔自治区",
 		"region_id": 3403,
-		"sub": [
-			{
+		"sub": [{
 				"name": "乌鲁木齐市",
 				"region_id": 3404,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3405
 					},
@@ -14290,8 +13928,7 @@
 			{
 				"name": "克拉玛依市",
 				"region_id": 3414,
-				"sub": [
-					{
+				"sub": [{
 						"name": "市辖区",
 						"region_id": 3415
 					},
@@ -14316,8 +13953,7 @@
 			{
 				"name": "吐鲁番市",
 				"region_id": 3553,
-				"sub": [
-					{
+				"sub": [{
 						"name": "高昌区",
 						"region_id": 3559
 					},
@@ -14334,8 +13970,7 @@
 			{
 				"name": "哈密市",
 				"region_id": 3554,
-				"sub": [
-					{
+				"sub": [{
 						"name": "伊州区",
 						"region_id": 3560
 					},
@@ -14352,8 +13987,7 @@
 			{
 				"name": "昌吉回族自治州",
 				"region_id": 3428,
-				"sub": [
-					{
+				"sub": [{
 						"name": "昌吉市",
 						"region_id": 3429
 					},
@@ -14386,8 +14020,7 @@
 			{
 				"name": "博尔塔拉蒙古自治州",
 				"region_id": 3436,
-				"sub": [
-					{
+				"sub": [{
 						"name": "博乐市",
 						"region_id": 3437
 					},
@@ -14408,8 +14041,7 @@
 			{
 				"name": "巴音郭楞蒙古自治州",
 				"region_id": 3440,
-				"sub": [
-					{
+				"sub": [{
 						"name": "库尔勒市",
 						"region_id": 3441
 					},
@@ -14450,8 +14082,7 @@
 			{
 				"name": "阿克苏地区",
 				"region_id": 3450,
-				"sub": [
-					{
+				"sub": [{
 						"name": "阿克苏市",
 						"region_id": 3451
 					},
@@ -14492,8 +14123,7 @@
 			{
 				"name": "克孜勒苏柯尔克孜自治州",
 				"region_id": 3460,
-				"sub": [
-					{
+				"sub": [{
 						"name": "阿图什市",
 						"region_id": 3461
 					},
@@ -14514,8 +14144,7 @@
 			{
 				"name": "喀什地区",
 				"region_id": 3465,
-				"sub": [
-					{
+				"sub": [{
 						"name": "喀什市",
 						"region_id": 3466
 					},
@@ -14568,8 +14197,7 @@
 			{
 				"name": "和田地区",
 				"region_id": 3478,
-				"sub": [
-					{
+				"sub": [{
 						"name": "和田市",
 						"region_id": 3479
 					},
@@ -14606,8 +14234,7 @@
 			{
 				"name": "伊犁哈萨克自治州",
 				"region_id": 3487,
-				"sub": [
-					{
+				"sub": [{
 						"name": "伊宁市",
 						"region_id": 3488
 					},
@@ -14656,8 +14283,7 @@
 			{
 				"name": "塔城地区",
 				"region_id": 3498,
-				"sub": [
-					{
+				"sub": [{
 						"name": "塔城市",
 						"region_id": 3499
 					},
@@ -14690,8 +14316,7 @@
 			{
 				"name": "阿勒泰地区",
 				"region_id": 3506,
-				"sub": [
-					{
+				"sub": [{
 						"name": "阿勒泰市",
 						"region_id": 3507
 					},
@@ -14724,8 +14349,7 @@
 			{
 				"name": "自治区直辖县级行政区划",
 				"region_id": 3514,
-				"sub": [
-					{
+				"sub": [{
 						"name": "石河子市",
 						"region_id": 3515
 					},
