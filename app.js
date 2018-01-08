@@ -8,25 +8,79 @@ var fs = require('fs');
 
 strUrl = 'http://cnis.7east.com/widget.do?type=service&ajax=yes';
 
-
-getDataByAjax(strUrl + '&action=cnislist', function (data) {
-  let cityCache = data;
-  for (var i = 0; i < cityCache.length; i++) {
-    setTimeout(function (i) {
-      getDataByAjax(strUrl + '&action=cnischildlist&pid=' + cityCache[i].region_id, function (data) {
-        cityCache[i].sub = data;
-        for (var j = 0; j < cityCache[i].sub.length; j++) {
-        	setTimeout(function(i, j){
-        		getDataByAjax(strUrl + '&action=cnischildlist&pid=' + cityCache[i].sub[j].region_id, function(data){
-        			cityCache[i].sub[j].sub = data;
-        			w_save(cityCache)
-        		})
-        	}, 0, i, j)
-        }
-      });
-    }, 0, i)
+class AjaxList{
+  constructor(){
+    this.SynchronizedNumber = 10;
+    this.hadNogolist = [];
+    this.waitList = [];
+    this.setComplete( () => {});
   }
+  push(url, next){
+    this.hadNogolist.push({
+      url: url, next: next
+    });
+  }
+  send(){
+    while(this.hadNogolist.length != 0){
+      let ajaxOpt = this.hadNogolist.pop();
+      this.waitList.push(ajaxOpt);
+      getDataByAjax(ajaxOpt.url, data => {
+        ajaxOpt.next(data);
+        this.clear(ajaxOpt.url);
+      });
+    }
+  }
+  clear(url){
+    let index = this.waitList.findIndex( node => node.url == url);
+    this.waitList.splice(index, 1);
+    this.inspectComplete();
+  }
+  inspectComplete(){
+    console.log('this.waitList.length: '+this.waitList.length)
+    if(this.waitList.length == 0){
+      this.complete();
+      return true;
+    }
+    return false;
+  }
+  setComplete(complete){
+    this.complete = complete;
+  }
+}
+
+let ajax = new AjaxList();
+let cityCache;
+ajax.setComplete(() => {
+  console.log('complete: ', cityCache);
+  console.log('complete over!');
+  f_save(cityCache);
 })
+ajax.push(strUrl + '&action=cnislist', data => {
+  // cityCache = data.splice(1,1);
+  cityCache = data;
+  loadSubData(cityCache);
+});
+ajax.send();
+
+
+function loadSubData(parentNodeList, DataSaveHandler) {
+  if(parentNodeList && parentNodeList.length != 0 ){
+    parentNodeList.forEach(Pnode => {
+      ajax.push(strUrl + '&action=cnischildlist&pid=' + Pnode.region_id, data => {
+        Pnode.sub = data;
+        loadSubData(data, DataSaveHandler);
+      })
+    });
+    ajax.send();
+  }else{
+    // console.log(222);
+    // if(ajax.inspectComplete()){
+    //   console.log(1111);
+    //   DataSaveHandler();
+    // }
+  }
+}
+
 
 
 // 记录setTimeout的标记
